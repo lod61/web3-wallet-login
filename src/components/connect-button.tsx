@@ -1,7 +1,7 @@
 'use client'
 
-import { useWeb3Modal } from '@web3modal/wagmi/react'
 import { useAccount } from 'wagmi'
+import { useWeb3Modal } from '@web3modal/wagmi/react'
 
 export function ConnectButton() {
   const { open } = useWeb3Modal()
