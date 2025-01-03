@@ -1,5 +1,8 @@
+// Next.js related imports
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+
+// Local imports
 import { Web3Provider } from "@/components/providers/web3-provider";
 import "./globals.css";
 
